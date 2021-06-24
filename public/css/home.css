@@ -1,0 +1,108 @@
+/* header */
+
+header{
+    background-color: var(--color-amarillo); /* color de fondo */
+}
+
+header .logo{
+    width: 185px; /* ancho */
+    height: 33px; /* alto */
+    margin-top: 30px; /* margen superior */
+
+}
+header .buscador{
+    margin-left: 18px; /* margen izquierdo */
+}
+
+header .buscador .buscar{
+    width: 170px; /* ancho */
+}
+header .buscador button{
+    display: block; /* elemento en bloque */
+}
+
+header p{
+    margin-top: 10px; /* margen superior */
+    font-size: 12px ; /* tamaño de letra */
+    text-align: center; /* centrar el texto */
+}
+
+header nav ul{
+    margin-top: 20px; /* margen superior */
+    line-height: 13px; /* interlineado */
+}
+
+header nav ul a{
+    font-size: 12px ; /* tamaño de letra */
+    color: #000000; /* cambiar color */
+}  
+
+.burger-menu{
+    padding: 18px 0; /* relleno: superior-inferior y laterales */
+    text-align: center; /* centrar */
+    border: none; /* sin bordes */
+}
+
+header .burger-menu .fa-bars{
+    color: rgb(255, 255, 255); /* color del icono */
+    background-color: var(--color-celeste); /* color de fondo */
+    padding: 10px; /* relleno: todos los lados */
+    border-radius: 5px; /* redondear borde */
+}
+
+/* banner */
+.banner{
+    width: 320px; /* ancho */
+}
+
+/* main */
+main{
+    background-color: var(--color-gris-claro); /* color de fondo */
+}
+
+main section h3{
+    font-size: 24px; /* tamaño de letra */
+}
+
+main section article img{
+    width: 300px; /* ancho */
+}
+
+main section article p{
+    font-size: 18px; /* tamaño de letra */
+}
+
+main section article span, main section article h4{
+    font-size: 16px; /* tamaño de letra */
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(255, 255, 255); /* color de fondo */
+    text-align: center; /* centrar el texto */
+    color: var(--color-gris-oscuro); /* color de letra */
+    font-weight: 600; /* grosor de letra */
+}
+
+footer section article .fa-credit-card, .fa-gift, .fa-user-shield{
+   font-size: 2em; /* tamaño de icono */
+   color: var(--color-celeste); /* color de fondo */
+   padding: 60px 0 10px; /* relleno: superior, laterales e inferior */
+}
+
+footer section article h4{
+    font-size: 18px; /* tamaño de letra */
+    padding: 0 40px;/* relleno: superior-inferior y laterales */
+}
+
+footer section article p{
+    font-size: 12px; /* tamaño de letra */
+    padding: 0 40px; /* relleno: superior-inferior y laterales */
+}
+
+footer section .copyrihgt{
+    font-size: 12px; /* tamaño de letra */
+    text-align: left; /* texto a la izquierda */
+    padding: 60px 0 30px 10px; /* relleno: superior, derecha, inferior e izquierda */
+}
